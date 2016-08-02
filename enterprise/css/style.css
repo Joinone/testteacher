@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS 初始化 */
+body,div,ul,ol,li,h1,h2,h3,h4,h5,h6,p,dl,dt,dd,span,a,i,strong,img,dorm,label,input,textarea{ margin:0; padding:0;}
+input,textarea{ border:0 none; background:none; outline:none;}
+li{ list-style:none;}
+i{ font-style:normal;}
+a{ text-decoration:none; color:#000;}
+a:hover{ color:#fc2424;}
+img{ border:0 none; vertical-align:top;}
+body{ font-size:12px;margin:0 auto; width:1003px;}
+.clearfix{ *zoom:1;}
+.clearfix:after{ content:'.'; height:0; display:block; visibility:hidden; clear:both;}
+/* CSS 主要 */
+/*首页*/
+/*头部*/
+#title{width:100%; height:auto; border-top:4px solid #7f7f7f; margin-bottom:4px;}
+#title h3{width:230px; height:84px;background:url(../images/logo.jpg) no-repeat; border-right:1px solid #c4c4c4; float:left;}
+.nav {float:left; background:url(../images/nav-bg.jpg) repeat-x left top; width:772px; margin-top:11px;}
+.nav li{ float:left;height:41px; background:url(../images/nav-fenge.jpg) right top no-repeat; padding:0 20px 0 22px; text-align:center; line-height:41px;}
+.nav li a{ font-size:13px; color:#4d4c4c;}
+.nav li a:hover{ color:#fc2424;}
+/*导航右上角边*/
+.nav-right{ margin-top:15px;float:right;}
+.map{ float:left; height:13px;width:61px; border-right:1px solid #a3a2a2;padding-right:11px;}
+.map a{color:#a3a2a2; font-size:13px;}
+.map a:hover{color:#fc2424;}
+.join{ margin:0 0 0 11px; border:0 none;}
+.banner-bottom{ height:30px; background:url(../images/banner-bg.jpg) repeat-x;}
+/*广告*/
+.banner{ width:100%;}
+/*首页广告下面到foot上面*/
+.shouye-content{ height:432px;}
+/*公司简介广告下面到foot上面*/
+.enterprise-content{ height:564px;}
+/*产品简介广告下面到foot上面*/
+.product-content2{ height:753px;}
+/*行业资讯下面到foot上面*/
+.news-content2{ height:521px;}
+/*栏目导航*/
+/*栏目导航头部*/
+.navigation{ width:188px; float:left;}
+.navigation-top{height:26px; background:url(../images/lanmu.png) no-repeat left top; padding-left:27px;}
+.navigation-top span{ font-size:13px; font-family:"微软雅黑"; margin-left:27px; line-height:22px; margin:1px 0 0 3px;color:#4372d1; }
+.navigation-top .texttwo{color:#adadad; font-size:12px;}
+.navigation-top-bottom{height:1px;width:188px; background:url(../images/lanmu.png) no-repeat left -26px; margin-bottom:10px;}/*头部分割线*/
+/*栏目导航内容*/
+.navigation-content { height:204px;}/*ul高度（从导航栏线下到联系我们图片边框包括，可改*/
+.navigation-content li{width:186px;height:24px; float:left; background:url(../images/lanmu-bg.jpg) repeat; text-align:center; line-height:24px; border-radius:1px; border:1px solid #ccc9c9; position:relative; margin-top:3px;}
+.navigation-content i{width:6px; height:11px; background:url(../images/lanmu.png) no-repeat 0 -29px; position:absolute; left:9px; top:6px;}
+.navigation-content .navigation-bottom-img{height:70px;width:184px;padding:1px; margin-top:4px; background:none; }
+.navigation-bottom-text{margin-top:10px;}/*dl*/
+.navigation-bottom-text dd{weight:100%;height:26px;line-height:26px;}
+
+/*中间部分*/
+.center{ float:left; width:556px; margin-left:37px;}
+/*公司简介*/
+.aboutus{width:100%; margin:0 0 8px;}
+.aboutus .navigation-top-bottom{width:100%;background:url(../images/lanmu.png) no-repeat left -44px;}/*头部分割线*/
+.navigation .more{ float:right; font-size:13px;line-height:26px; color:#fff;}
+.content img{ float:left; margin-bottom:17px;}
+.content p{ text-indent:2em; line-height:22px; margin-top:16px;}
+/*产品简介*/
+.product{ width:100%;}
+.product li{ float:left; height:150px;width:127px;  margin-right:21px; text-align:center;}
+.product img{ height:125px;width:125px; border:1px #d3d3d3 solid;}
+.product-content{margin:19px 16px 0 14px; width:540px; overflow:hidden;}
+.product-content ul{ width:110%;}
+.product-content span{ display:block;line-height:22px;}
+/*行业资讯*/
+.news{ float:left; width:199px; margin-left:23px;}
+.news-content img{width:190px; height:190px; padding:3px; border:1px solid #dbdada; }
+.news .navigation-top-bottom{ background-position:0 -50px;}
+.newstitle a:hover{color:#fc2424;}
+/*幻灯片*/
+.huandengpian{position:relative;}
+.img-num{ position:absolute;left:4px; bottom:4px;}
+.img-num li{ width:24px; height:14px; background:#060606; float:left; color:#fff; text-align:center;}
+/*新闻标题*/
+.newstitle{margin-top:14px;} 
+.newstitle li{height:22px;margin:3px 0 0 20px;line-height:22px; position:relative;}
+.newstitle li a{color:#777676;}
+.newstitle i{ width:0; height:0; border:3px solid; position:absolute; left:-12px;top:9px; border-color: transparent transparent transparent #777676;}
+.foot{ height:83px; border-top:7px solid #e2e1e1; padding-top:13px;}
+.foot p{line-height:22px; text-align:center; color:#a4a2a2;}
+/*公司简介*/
+.enterprise-right{width:725px;margin-left:38px; float:left;}
+
+.enterprise-right-top{ width:776px;height:30px;background:url(../images/enterprice-right-titbg.jpg) repeat-x; position:relative;}
+.enterprise-right-text{margin:33px 0  0 22px;}
+.enterprise-right h3{ color:#5e5a5a; font-size:14px; line-height:22px; margin:33px auto 0 auto; text-align:center;}
+.enterprise-right-top i{width:0; height:0;border:7px solid; border-color: transparent transparent transparent #ea3724; position:absolute; left:18px;top:2px;}
+.enterprise-right-top span{ margin-left:32px;}
+.enterprise-right h6{ width:100%;height:44px; line-height:44px; text-align:center; font-size:12px; color:#5e5a5a;}/*发布*/
+.enterprise-right-text p{ text-indent:2em;color:#5e5a5a; line-height:20px;}
+/*分页*/
+.page{ text-align:center;padding-top:20px;}
+.page .selected{ background:#ea3724; color:#fff;}
+.page a{ display:inline-block;width:31px; height:20px; border:1px  solid #b6b5b5; margin-right:4px; text-align:center; line-height:20px;}
+.page span{ border:0 none;}
+
+/*产品简介*/
+.product-text{margin:0 0 0 8px; width:733px; overflow:hidden;}
+.product-text ul{ width:110%;}
+.product-text li{ float:left; width:348px; height:143px; border-bottom: 1px dashed #ebebeb; margin:14px  22px 0 0;}
+.product-text img{float:left; border:1px solid #d4d2d3; }
+.product-text  dl{ float:right;width:190px; margin-left:18px;font-family:"微软雅黑";}
+.product-text dt{ font-size:18px; color:#323232; line-height:22px; margin-bottom:12px;}
+.product-text dd{ font-size:13px; line-height:22px;}
+/*行业资讯*/
+.newslist{ padding:9px 43px  0 20px;}
+.newslist li{ width:715px; height:39px; border-bottom:1px dashed #9e9c9c;}
+.newslist li a{ float:left; line-height:39px;}
+.newslist li span{ float:right; color:#8e8d8d; line-height:39px;}
+/*联系我们*/
+.contactway h3{width:100%;height:43px;font-size:14px; height:43px; text-align:left; color:#000; }
+.contactway img{ width:532px;height:246px; border:1px solid #e1dddd; padding:5px 6px 5px 5px;}
